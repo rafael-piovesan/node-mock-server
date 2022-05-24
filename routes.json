@@ -1,0 +1,18 @@
+{
+    "/shelves/:id/books": {
+        "statusCode": 500,
+        "delay": 120000
+    },
+    "/shelves/:id": {
+        "body": {
+            "id": "be9037ec-25af-4d79-82a3-fc2425d0a724",
+            "short_id": "RPVK3UQK"
+        }
+    },
+    "/checkout/session": {
+        "forwardTo": {
+            "host": "http://example.com",
+            "path": "/checkout/session"
+        }
+    }
+}

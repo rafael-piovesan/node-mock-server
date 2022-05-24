@@ -1,0 +1,24 @@
+{
+  "name": "node-mock-server",
+  "version": "0.0.1",
+  "description": "really simple mock-server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafael-piovesan-hash/node-mock-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafael-piovesan-hash/node-mock-server/issues"
+  },
+  "homepage": "https://github.com/rafael-piovesan-hash/node-mock-server#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-http-proxy": "^1.6.3",
+    "morgan": "^1.10.0"
+  }
+}
